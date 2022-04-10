@@ -118,20 +118,4 @@ class CreateBloc extends Bloc<CreateEvent, CreateState> {
       return false;
     }
   }
-
-  _bandera() {
-    print("=====================================");
-    print("||          to va bien             ||");
-    print("||              __                 ||");
-    print("||           __/o \\_               ||");
-    print("||           \\____  \\              ||");
-    print("||               /   \\             ||");
-    print("||         __   //\\   \\            ||");
-    print("||      __/o \\-//--\\   \\_/         ||");
-    print("||      \\____  ___  \\  |           ||");
-    print("||           ||   \\ |\\ |           ||");
-    print("||          _||   _||_||           ||");
-    print("||                                 ||");
-    print("=====================================");
-  }
 }
