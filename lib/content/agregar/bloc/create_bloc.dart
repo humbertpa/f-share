@@ -44,7 +44,7 @@ class CreateBloc extends Bloc<CreateEvent, CreateState> {
       //Guardar Fshare en cloud Firestore
       var docRef =
           await FirebaseFirestore.instance.collection("fshare").add(dataToSave);
-      _bandera();
+
       return await _updateUserDocumentReference(docRef.id);
     } catch (e) {
       print("Error: $e");
